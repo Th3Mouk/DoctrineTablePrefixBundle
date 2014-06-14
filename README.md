@@ -22,7 +22,7 @@ Add DoctrineTablePrefixBundle in your composer.json:
 Now tell composer to download the bundle by running the command:
 
 ``` bash
-$ php composer.phar update Th3Mouk/doctrine-table-prefix-bundle
+$ php composer.phar update Th3mouk/doctrine-table-prefix-bundle
 ```
 Composer will install the bundle to your project's `vendor/Th3mouk` directory.
 
