@@ -17,7 +17,7 @@
         "doctrine/doctrine-bundle": "~1.2"
     },
     "autoload": {
-        "psr-4": { "Th3mouk\\DoctrineTablePrefixBundle": "" }
+        "psr-4": { "Th3mouk\\DoctrineTablePrefixBundle\\": "" }
     },
     "target-dir": "Th3mouk/DoctrineTablePrefixBundle"   
 }
