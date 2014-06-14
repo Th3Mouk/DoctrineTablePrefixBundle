@@ -1,5 +1,5 @@
 {
-    "name": "th3mouk/doctrine-table-prefix-bundle",
+    "name": "Th3mouk/doctrine-table-prefix-bundle",
     "type": "symfony-bundle",
     "description": "Bundle for Symfony2 and Doctrine2 that allow prefixing yours databases tables.",
     "keywords": ["symfony","doctrine","prefix","table"],
@@ -12,12 +12,12 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "symfony/framework-bundle": ">=2.3,<2.5-dev",
+        "symfony/framework-bundle": ">=2.3",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2"
     },
     "autoload": {
-        "psr-0": { "Th3mouk\\DoctrineTablePrefixBundle": "" }
+        "psr-4": { "Th3mouk\\DoctrineTablePrefixBundle": "" }
     },
     "target-dir": "Th3mouk/DoctrineTablePrefixBundle"   
 }
