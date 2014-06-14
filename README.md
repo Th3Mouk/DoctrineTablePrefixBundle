@@ -34,6 +34,21 @@ Composer will install the bundle to your project's `vendor/Th3mouk` directory.
 $ php composer.phar require th3mouk/doctrine-table-prefix-bundle:~1.0
 ```
 
+**Warning**
+
+This bundle doesn't contains any controller, so when the installation asks if you
+want to update app/config/routing.yml say **NO** to the temptation.
+
+If you are someone who loves to play with fire, or who was wrong pressing "enter", "enter", "enter"...
+
+Remove this :
+``` yaml
+# app/config/routing.yml
+th3mouk_doctrine_table_prefix:
+    resource: "@Th3MoukDoctrineTablePrefixBundle/Resources/config/routing.yml"
+    prefix:   /
+```
+
 ### Second : Enable the bundle
 
 Enable the bundle in the kernel:
