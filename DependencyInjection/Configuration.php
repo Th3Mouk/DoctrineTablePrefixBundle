@@ -22,7 +22,7 @@ class Configuration implements ConfigurationInterface
         
         $rootNode
           ->children()
-            ->scalarNode('prefix')->defaultValue('sf2_')->end()
+            ->scalarNode('prefix')->isRequired()->defaultValue('sf2_')->end()
           ->end();
 
         return $treeBuilder;
