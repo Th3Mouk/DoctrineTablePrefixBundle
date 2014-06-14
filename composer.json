@@ -1,5 +1,5 @@
 {
-    "name": "Th3mouk/doctrine-table-prefix-bundle",
+    "name": "th3mouk/doctrine-table-prefix-bundle",
     "type": "symfony-bundle",
     "description": "Bundle for Symfony2 and Doctrine2 that allow prefixing yours databases tables.",
     "keywords": ["symfony","doctrine","prefix","table"],
