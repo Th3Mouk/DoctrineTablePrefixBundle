@@ -3,6 +3,8 @@ DoctrineTablePrefixBundle
 
 Bundle for Symfony2 and Doctrine2 that allow prefixing yours databases tables.
 
+[![Latest Stable Version](https://poser.pugx.org/th3mouk/doctrine-table-prefix-bundle/v/stable.svg)](https://packagist.org/packages/th3mouk/doctrine-table-prefix-bundle) [![Total Downloads](https://poser.pugx.org/th3mouk/doctrine-table-prefix-bundle/downloads.svg)](https://packagist.org/packages/th3mouk/doctrine-table-prefix-bundle) [![Latest Unstable Version](https://poser.pugx.org/th3mouk/doctrine-table-prefix-bundle/v/unstable.svg)](https://packagist.org/packages/th3mouk/doctrine-table-prefix-bundle) [![License](https://poser.pugx.org/th3mouk/doctrine-table-prefix-bundle/license.svg)](https://packagist.org/packages/th3mouk/doctrine-table-prefix-bundle)
+
 ## Installation
 
 ### First: Download DoctrineTablePrefixBundle using composer
