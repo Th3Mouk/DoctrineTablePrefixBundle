@@ -1,0 +1,6 @@
+services:
+    th3mouk_doctrine_table_prefix.subscriber:
+        class: Th3mouk\DoctrineTablePrefixBundle\Subscriber\DoctrineTablePrefixSubscriber
+        arguments: ['%th3mouk_doctrine_table_prefix.prefix%']
+        tags:
+            - { name: doctrine.event_subscriber }
