@@ -14,7 +14,7 @@ Add DoctrineTablePrefixBundle in your composer.json:
 ``` js
 {
     "require": {
-        "Th3Mouk/doctrine-table-prefix-bundle": "*"
+        "Th3mouk/doctrine-table-prefix-bundle": "dev-master"
     }
 }
 ```
@@ -24,12 +24,12 @@ Now tell composer to download the bundle by running the command:
 ``` bash
 $ php composer.phar update Th3Mouk/doctrine-table-prefix-bundle
 ```
-Composer will install the bundle to your project's `vendor/Th3Mouk` directory.
+Composer will install the bundle to your project's `vendor/Th3mouk` directory.
 
-#### Or simply type this command :
+#### Or simply by typing this command :
 
 ``` bash
-$ php composer.phar require Th3Mouk/doctrine-table-prefix-bundle:dev-master
+$ php composer.phar require Th3mouk/doctrine-table-prefix-bundle:dev-master
 ```
 
 ### Second : Enable the bundle
@@ -44,7 +44,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Th3Mouk\DoctrineTablePrefixBundle\Th3MoukDoctrineTablePrefixBundle(),
+        new Th3mouk\DoctrineTablePrefixBundle\Th3moukDoctrineTablePrefixBundle(),
     );
 }
 ```
