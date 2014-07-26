@@ -9,11 +9,11 @@ Bundle for Symfony2 and Doctrine2 that allow prefixing yours databases tables.
 
 ### First: Download DoctrineTablePrefixBundle using composer
 
-#### Doing this :
+#### By adding this :
 
 Add DoctrineTablePrefixBundle in your composer.json:
 
-``` js
+``` json
 {
     "require": {
         "th3mouk/doctrine-table-prefix-bundle": "~1.0"
