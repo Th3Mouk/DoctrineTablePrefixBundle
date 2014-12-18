@@ -24,7 +24,7 @@ class Th3moukDoctrineTablePrefixExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
-        
+
         $container->setParameter('th3mouk_doctrine_table_prefix.prefix', $config['prefix']);
     }
 }

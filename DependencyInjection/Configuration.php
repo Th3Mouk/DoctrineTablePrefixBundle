@@ -19,7 +19,7 @@ class Configuration implements ConfigurationInterface
     {
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('th3mouk_doctrine_table_prefix');
-        
+
         $rootNode
           ->children()
             ->scalarNode('prefix')->defaultValue('sf2_')->end()
