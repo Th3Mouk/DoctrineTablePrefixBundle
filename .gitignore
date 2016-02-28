@@ -1,2 +1,2 @@
-/nbproject/private/
-nbproject/
+vendor
+.php_cs.cache
