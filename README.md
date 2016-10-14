@@ -9,29 +9,20 @@ Bundle for Symfony2 and Doctrine2 that allow prefixing yours databases tables.
 
 ### First: Download DoctrineTablePrefixBundle using composer
 
-#### By adding this :
+Using command line
 
-Add DoctrineTablePrefixBundle in your composer.json:
+```sh
+composer require th3mouk/doctrine-table-prefix-bundle
+```
 
-``` json
+Or editing `composer.json` :
+
+```json
 {
     "require": {
-        "th3mouk/doctrine-table-prefix-bundle": "~1.0"
+        "th3mouk/doctrine-table-prefix-bundle": "^1.0"
     }
 }
-```
-
-Now tell composer to download the bundle by running the command:
-
-``` bash
-$ php composer.phar update th3mouk/doctrine-table-prefix-bundle
-```
-Composer will install the bundle to your project's `vendor/Th3mouk` directory.
-
-#### Or simply by typing this command :
-
-``` bash
-$ php composer.phar require th3mouk/doctrine-table-prefix-bundle:~1.0
 ```
 
 ### Second : Enable the bundle
@@ -47,6 +38,7 @@ public function registerBundles()
     $bundles = array(
         // ...
         new Th3mouk\DoctrineTablePrefixBundle\Th3moukDoctrineTablePrefixBundle(),
+        // ...
     );
 }
 ```
@@ -57,7 +49,7 @@ Default prefix is "sf2_".
 
 You can change the prefix in your configuration:
 
-``` yaml
+```yml
 # app/config/config.yml
 th3mouk_doctrine_table_prefix:
     prefix: sf2_
